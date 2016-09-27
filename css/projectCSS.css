@@ -1,8 +1,14 @@
+/*Yes I know this is terrible, just temporary until I can be bothered to track down what is padded*/
+* {
+  margin: 0; padding: 0;
+  }
 html, body{
   font-family: "arial";
   margin: 0;
   margin-top: 0;
   margin-bottom: 0;
+  background-color: transparent;
+  background-color: #D3D3D3;
 }
 .navBar{
   display:block;
@@ -27,8 +33,12 @@ a:visited{
   background-color: #192857;
   color: #cdb87d;
 }
-
-/*Yes I know this is terrible, just temporary until I can be bothered to track down what is padded*/
-* {
-  margin: 0; padding: 0;
-  }
+.mainContent{
+  margin-left: 1em;
+}
+.contentList{
+  margin-left: 1em;
+  list-style: square;
+  display: list-item;
+  overflow: visible;
+}
