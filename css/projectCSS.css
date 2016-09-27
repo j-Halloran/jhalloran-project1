@@ -10,7 +10,7 @@ html, body{
   list-style: none;
   background-color: #192857;
   color: #cdb87d;
-  font-size:200%;
+  font-size:130%;
 }
 a:link{
   color:white;
@@ -27,6 +27,8 @@ a:visited{
   background-color: #192857;
   color: #cdb87d;
 }
+
+/*Yes I know this is terrible, just temporary until I can be bothered to track down what is padded*/
 * {
   margin: 0; padding: 0;
   }
