@@ -1,10 +1,15 @@
+html, body{
+  font-family: "arial";
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .navBar{
-  display: inline-block;
+  display:block;
   text-align: center;
-  width: 100%;
   list-style: none;
-  background-color: black;
-  color: white;
+  background-color: #192857;
+  color: #cdb87d;
   font-size:200%;
 }
 a:link{
@@ -15,3 +20,13 @@ a:visited{
   color:white;
   text-decoration: none;
 }
+.titleText{
+  display:block;
+  text-align:center;
+  padding-bottom: -20rem;
+  background-color: #192857;
+  color: #cdb87d;
+}
+* {
+  margin: 0; padding: 0;
+  }
