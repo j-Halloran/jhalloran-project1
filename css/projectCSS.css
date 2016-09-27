@@ -3,7 +3,7 @@
   margin: 0; padding: 0;
   }
 html, body{
-  font-family: "arial";
+  font-family: "palatino linotype";
   margin: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -19,12 +19,15 @@ html, body{
   font-size:130%;
 }
 a:link{
-  color:white;
+  color:#cdb87d;
   text-decoration: none;
 }
 a:visited{
-  color:white;
+  color:#cdb87d;
   text-decoration: none;
+}
+a:hover{
+  font-weight: bold;
 }
 .titleText{
   display:block;
@@ -37,8 +40,13 @@ a:visited{
   margin-left: 1em;
 }
 .contentList{
-  margin-left: 1em;
   list-style: square;
   display: list-item;
   overflow: visible;
+}
+
+#cathyPic{
+  display: inline;
+  height: 437px;
+  width: 291px;
 }
