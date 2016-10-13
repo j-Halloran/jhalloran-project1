@@ -88,10 +88,27 @@ a:hover{
   margin-top: 0;
   font-weight: bold;
   font-size: 1.2em;
-  color: black;
   color: #192857;
 }
 
+/*CSS for Resume*/
+#resumeContainer{
+  text-align: center;
+  margin-top: 1%;
+}
+
+#resumeHead{
+  text-align: center;
+  color: #192857;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+#resumeFrame{
+  border: 0;
+  background-color: #D3D3D3;
+}
 /*Based on a stackoverflow example but not copy pasted, done personally*/
 /*Everything below here is for the contact form*/
 #innerForm{
