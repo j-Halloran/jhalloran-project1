@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta author="Jake Halloran">
+    <title>Personal Site: Jake Halloran</title>
+    <link rel="stylesheet" href="./css/projectCSS.css">
+  </head>
+  <body id="contactBody">
+    <header id="header">
+      <div id="titleNavBox">
+        <div id="title_div">
+          <h1 class="titleText">
+            Jake Halloran <br>Programmer and UPITT Student
+          </h1>
+        </div>
+        <div id="nav_id">
+          <nav>
+            <ul>
+              <li class="navBar">
+                <a href="index.html"> Home </a>
+                <a href="resume.html">Resume </a>
+                <a href="contact.html"> Contact </a>
+                <a href="https://github.com/j-Halloran"> GitHub </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div id="formHolder">
+      <div id="innerForm">
+        <form name="name-form" method="get" action="/" id="commentForm">
+            <input id="name" name="name-field" class="textbox-input" type="text" placeholder="First and Last Name" autofocus="autofocus"><br>
+            <input id="email" name="email-field" class="textbox-input" type="text" placeholder="Email Address"><br>
+            <input id="comment" name="comment-field" class="textbox-input" type="text" placeholder="Enter your Comment Here"><br>
+            <input id="submitButton" name="Submit" type="submit">
+        </form>
+      </div>
+    </div>
+
+    <div id="errorHolder">
+      <p id="nameError"><br>You Must Enter A Name</p>
+
+      <p id="emailError"><br>You Must Enter An Email</p>
+
+      <p id="emailFormatError"><br>Your email must contain an @ symbol</p>
+
+      <p id="commentError"><br>You Must Enter A Comment</p>
+
+    </div>
+
+    <div id="successHolder">
+      <p id="successPara"><br>Thanks, I will get back to you soon!</p>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/project1.js"></script>
+  </body>
+</html>
