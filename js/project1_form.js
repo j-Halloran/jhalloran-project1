@@ -16,7 +16,7 @@ $(document).ready(function(){
       $.ajax({
             type: 'post',
             url: './php/post.php',
-            data: $('form').serialize(),
+            data: $('#commentForm').serialize(),
             success: function () {
               console.log('form was submitted');
             }
