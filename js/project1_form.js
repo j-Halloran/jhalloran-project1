@@ -11,6 +11,16 @@ $(document).ready(function(){
       $("#errorHolder").hide();
       $("#formTitle").hide();
       $("#successHolder").show();
+
+      //Use ajax to pass form data without a page refresh
+      $.ajax({
+            type: 'post',
+            url: './php/post.php',
+            data: $('form').serialize(),
+            success: function () {
+              console.log('form was submitted');
+            }
+      });
     }
 
     else{

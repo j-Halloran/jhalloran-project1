@@ -7,7 +7,6 @@ function setTitleDate(){
   var loadTime = new Date();
   var lastUpdate = new Date(2016,10,02);
   var diffDays = Math.round(Math.abs((loadTime.getTime() - lastUpdate.getTime())/(dayInSeconds)));
-  alert(loadTime.getDay());
   $("#resumeHead").text("Resume - Last Updated "+diffDays+" Days Ago");
   return true;
 }
