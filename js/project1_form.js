@@ -17,8 +17,8 @@ $(document).ready(function(){
             type: 'post',
             url: './php/post.php',
             data: $('#commentForm').serialize(),
-            success: function () {
-              console.log('form was submitted');
+            success: function (response) {
+              console.log(response);
             }
       });
     }
