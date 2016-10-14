@@ -21,6 +21,72 @@ html, body{
   font-size:130%;
 }
 
+#aboutButtons{
+  width: 1200px;
+  float: left;
+  left: 27%;
+  position: absolute;
+  margin-top: 1%;
+}
+
+button{
+  max-width: 300px;
+  padding: 20px;
+}
+
+#contentHolder{
+  margin: 10px auto;
+}
+
+
+#cathyPic{
+  max-width: 320px;
+  max-width: 240px;
+}
+
+#codingPic{
+  max-width: 320px;
+  max-width: 240px;
+}
+
+#footballPic{
+  max-width: 320px;
+  max-width: 240px;
+}
+
+#designPic{
+  max-width: 320px;
+  max-width: 240px;
+}
+
+#classesDiv{
+  margin-top: 15%;
+  position: absolute;
+}
+
+.image-container2{
+  float: right;
+  margin-right: -100px;
+  width: 320px;
+  height: 240px;
+  display: inline;
+}
+.about-container-div{
+  float: left;
+  left: 33%;
+  position: relative;
+  margin-top: 5%;
+  max-width: 600px;
+  color: #192857;
+}
+
+.image-container{
+  float: left;
+  width: 320px;
+  height: 240px;
+  display: inline;
+}
+
 a:link{
   color:#cdb87d;
   text-decoration: none;
@@ -172,12 +238,12 @@ input:focus{
   border-color: #192857;
 }
 
-#submitButton:hover{
+.about-button:hover{
 	background-color: #cdb87d;
 	color: #192857;
 }
 
-#submitButton{
+.about-button{
 	float:left;
 	width: 100%;
 	border: #cdb87d solid 4px;

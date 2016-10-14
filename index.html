@@ -31,23 +31,65 @@
       </div>
     </header>
 
-    <div id="mainContent">
-      <div class="imageContainer">
-        <img src="./images/cathy.jpg" alt="The Cathedral of Learning" id="cathyPic"></img>
-      </div>
-      <h3 class="aboutHead">Yay</h3>
-      <p class="contentPara">
-        I am Jake Halloran a computer engineering student at the University of Pittsburgh.<br>
-        I have experience in the following languages:
-      </p>
-      <ul class="contentList">
-        <li>C/C++</li>
-        <li>Java</li>
-        <li>Python</li>
-      </ul>
-      <p class="contentPara">
-        Outside of computers, my interests include football, overly spicy food, and making myself look stupid.
-      </p>
+
+    <!--Definitely the sparsest part of the site, sorry-->
+    <div id="aboutButtons">
+      <button type="button" class="about-button" id="intro" name="intro" >Personal Info</button>
+      <button type="button" class="about-button" id="languages" name="languages">Education</button>
+      <button type="button" class="about-button" id="interests" name="interests">Interests</button>
     </div>
+
+    <div id="contentHolder">
+      <div id="mainContent">
+        <div id="introDiv" class="about-container-div">
+          <div id="cathyContainer" class="image-container">
+            <img src="./images/cathy.jpg" alt="The Cathedral of Learning" id="cathyPic"></img>
+          </div>
+
+          <p class="content-para">
+            I am Jake Halloran, a computer engineering student at the University of Pittsburgh. I am a
+            senior according to credits but only in my third year of school. The buttons at the top
+            make new content appear meaning this page has slightly more than the zero content it seems
+            to contain.
+          </p>
+        </div>
+
+        <div id="languagesDiv" class="about-container-div">
+          <div id="languagesPicture" class = "image-container">
+            <img src="./images/coding.jpg" alt="Coding Brain Picture" id="codingPic"></img>
+          </div>
+
+          <p class = "content-para">
+            I have experience in C, C++, Python, Java, Matlab, JavaScript, and jQuery.<br>
+            Additionally, I am experienced in Linux, Unix, and Windows and many applications for each.
+          </p>
+        </div>
+
+        <div id="classesDiv" class="about-container-div">
+          <div id="languagesPicture" class = "image-container2">
+            <img src="./images/designHub.png" alt="Design Hub Logo" id="designPic"></img>
+          </div>
+
+          <p class = "content-para">
+            While at Pitt, I have taken classes in Algorithms, Data Structures, Web Design, Computer
+            Architecture, Operating Systems, and Electronic Design. Additionally, Through clubs such as
+            Design Hub I have been fully exposed to a top to bottom design process.
+          </p>
+        </div>
+
+        <div id="otherInterests" class="about-container-div">
+          <div id="interestsPicture" class ="image-container">
+            <img src="./images/football.jpg" alt="Football Picture" id="footballPic"></img>
+          </div>
+
+          <p class="content-para">
+            Outside of school work and coding my interests mostly include football and eating.
+            Honestly, probably excessive amounts of both.
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./js/project1_about.js"></script>
   </body>
 </html>
